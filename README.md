@@ -1,52 +1,68 @@
-# 🚴‍♂️ Tick Tock, Pedal Clock: Hourly Bike Sharing Demand Prediction
+# 🚴‍♂️ Tick Tock, Pedal Clock: The Groovy Bike-Sharing Crystal Ball 🔮
 
-![Bike Demand Time Warp](images/Designer.png)
+<div align="center">
 
-## 🎭 Welcome to the Bicycle Time Machine!
+![Funky Bike Demand Concept](images/Designer.png)
 
-Ever wondered how many bikes will be zipping around the city in the next hour? Welcome to **"Tick Tock, Pedal Clock"** - where we're turning the chaotic world of hourly bike-sharing into a well-tuned Swiss watch! (With spokes, of course)
+[🚀 Ride the Time Wave](https://pedal-clock.onrender.com) | [🔧 Tinker with the Gears](https://github.com/RamanarayanRansingh/pedal_clock_render) | [🐛 Spot a Time Glitch?](https://github.com/RamanarayanRansingh/pedal_clock_render/issues)
 
-## 🕵️‍♀️ The Case of the Hourly Bike Flux
+</div>
 
-Picture this: It's 2 PM on a sunny Tuesday, and you're tasked with ensuring there are enough bikes for the 3 PM rush. Cue the suspenseful tick-tock! 🕒
+## 🎭 Yo, Welcome to the Bicycle Time Warp!
 
-Our mission: Predict bike demand with the precision of an atomic clock, but for wheels instead of atoms.
+Strap on your helmets and prepare to pedal through the space-time continuum! **"Tick Tock, Pedal Clock"** isn't just a project, it's a groovy journey into the future of urban mobility. We're turning the chaotic world of hourly bike-sharing into a funky, well-oiled machine!
 
-## 🔮 Our Hourly Crystal Ball (Now with Gears!)
+<div align="center">
 
-We're not just guessing based on how many coffees the city has collectively consumed. We've built a prediction model so accurate, it could probably tell you how many bikes will be rented in the next hour... and in which gear!
+![Streamlit Dashboard Preview 1](images/homepage.png)
 
-### What We're Clocking:
-- 🧠 A brain that learns from hourly bike-sharing patterns
-- 🔍 A magnifying glass to spot hourly demand spikes and dips
-- 💡 Insights more precise than a bike mechanic's torque wrench
+</div>
 
-## 🛠️ Our Time-Tuning Toolkit
+## 🕵️‍♀️ The Curious Case of the Hourly Bike Boogie
 
-1. **Hourly Data Detangling**: We're combing through time series data like we're preparing for the world's most complex chronograph.
-2. **Temporal Feature Engineering**: Transforming timestamps into predictive gold. It's like turning sand into silicon... for our data chips!
-3. **Regression Model Marathon**: We're putting our algorithms through more rigorous testing than a bike's odometer.
-4. **Hyperparameter Tuning Tango**: Fine-tuning our model with the precision of a watchmaker adjusting gears.
-5. **Real-time Deployment Dash**: Rolling out our model to predict faster than you can say "It's bike o'clock!"
+Picture this: You're the DJ of urban transportation, mixing tracks of supply and demand. Your mission? Drop the perfect beat of bikes across the city, hour by hour. It's not just prediction, it's a full-on time-traveling disco!
 
-## 📊 The "Great Scott!" Results
+## 🔮 Our Hourly Hocus Pocus (Now with Extra Funk!)
 
-| Metric | Score | In Human Speak |
+We've conjured up a prediction model so hip, it could probably tell you how many bikes will be doing the Cha-Cha Slide in the next hour!
+
+### What's Groovin' in Our Crystal Ball:
+- 🧠 A neural network that boogies with hourly bike-sharing patterns
+- 🔍 Algorithms that can spot a demand spike faster than you can say "Stayin' Alive"
+- 💡 Insights so bright, you gotta wear shades 😎
+
+<div align="center">
+
+![Streamlit Dashboard Preview 2](images/predict.png)
+
+</div>
+
+## 🛠️ Our Funky Forecast Factory
+
+1. **Data Disco**: We're spinning records of time series data like a DJ on Saturday night!
+2. **Feature Funk Engineering**: Turning boring old timestamps into chart-topping hits.
+3. **Model Mosh Pit**: Our algorithms are crowd-surfing through more tests than a rock star's mic check.
+4. **Hyperparameter Hustle**: Fine-tuning our model with more precision than a disco ball's spin.
+5. **Real-time Rave Deployment**: Predictions dropping faster than the bass at a dubstep concert!
+
+## 📊 The "Great Scott!" Scoreboard
+
+| Metric | Score | In Funky Speak |
 |--------|-------|----------------|
-| MAE | 2.04 | We're off by fewer bikes per hour than you have fingers! |
-| RMSE | 3.15 | Our hourly predictions are smoother than a bike's cadence meter |
-| R² | 0.94 | We're explaining more hourly variance than there are minutes on a clock face |
+| MAE | 2.04 | We're smoother than a fresh jar of Skippy! |
+| RMSE | 3.15 | Our predictions? Tighter than platform shoes! |
+| R² | 0.94 | We're explaining more variance than a kaleidoscope! |
 
-## 🎭 The Cast of Hourly Predictors
+## 🎭 The All-Star Prediction Lineup
 
-Starring in our timely peloton:
-- 🌡️ Temperature (The Hourly Sweat Inducer)
-- 🌞 Weather Conditions (The Mood Setter, Updated Hourly)
-- 🕰️ Hour of the Day (The Circadian Rhythm Keeper)
-- 📅 Day of the Week (The Weekly Cycle Spinner)
-- 🏙️ Location (The Urban Hourly Hotspot Tracker)
+Featuring the grooviest factors in our time-traveling band:
+- 🌡️ Temperature (The Fahrenheit Funkateer)
+- 🌞 Weather (The Atmospheric Mood Ring)
+- 🕰️ Hour (The Circadian Rhythm Guitar)
+- 📅 Weekday (The Seven-Day Samba)
+- 🏙️ Location (The Urban Disco Ball)
 
-## 🚀 Ready to Time Travel?
+## 🚀 Ready to Ride the Time Wave?
 
 ```bash
 git clone https://github.com/your-username/tick-tock-pedal-clock.git
@@ -54,36 +70,42 @@ cd tick-tock-pedal-clock
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-jupyter notebook
+streamlit run app.py
 ```
 
-Congratulations! You're now ready to predict hourly bike demand faster than you can say "Back to the Future of Transportation"!
+Congrats! You're now the proud owner of a bike-predicting time machine. Use it wisely, or at least use it to win bets at parties!
 
-## 📂 What's in our Timeless Bike Basket?
+## 📂 What's in the Time Capsule?
 
-- `📊 data/`: More hourly data points than spokes on a wheel
-- `🖼️ images/`: Visual treats that'll make your eyes spin (clockwise, of course)
-- `🔮 models/`: Our digital hourglasses, now with added predictive sand
-- `📓 notebooks/`: Where the temporal magic happens, explained minute by minute
-- `⏱️ src/`: The ticking heart of our bike-predicting time machine
+- `📊 data/`: More bike data than you can shake a handlebar at
+- `🖼️ images/`: Eye candy that'll make your retinas dance
+- `🔮 models/`: Our digital fortune tellers, now with 20% more sparkle
+- `📓 notebooks/`: Where we scribble our time-bending formulas
+- `⏱️ src/`: The flux capacitor of our bike-predicting DeLorean
 
-## 🤝 Join Our Temporal Peloton
+## 🤝 Join the Time Travelers' Club
 
-Got an idea that'll make our hourly predictions even more accurate than atomic time? We're all ears! Open an issue or send a PR our way. Let's turn this hourly bike-sharing prediction game into a full-blown time trial!
+Got a idea that's so crazy it just might work? We're all ears and temporal lobes! Open an issue or send a PR our way. Let's turn this prediction game into a full-blown time carnival!
 
-## 📜 The Fine Print (License)
+## 📜 The Not-So-Fine Print
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. It's like the rules of daylight savings, but for code!
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. It's like the rules of time travel, but for code!
 
-## 🕰️ Recent Tune-Ups (Commit History)
+## 🕰️ Recent Temporal Tweaks
 
-- 🧹 Swept away temporal anomalies in our hourly data preprocessing
-- 🎨 Gave our time series visualizations a chronological glow-up
-- 🔧 Tightened the bolts on our model's time-sensitive parameters
-- 🚀 Launched our hourly predictions into the real-time production continuum
+- 🧹 Swept away some pesky time paradoxes
+- 🎨 Gave our time machine a fresh coat of paint
+- 🔧 Calibrated our flux capacitor for maximum accuracy
+- 🚀 Launched our predictions into a parallel universe (aka production)
 
 ---
 
-Built with 💖, 🧠, and a dash of ⏳ by a Solo Time-Traveling Data Cyclist
+<div align="center">
 
-Remember: In the hourly race against bike shortages, temporal data is your best domestique! 🚲⏱️💨
+Crafted with 💖, 🧠, and a dash of ⏳ by a Solo Time-Traveling Data Disco Dancer
+
+[🐦 Tweet from the Future](https://twitter.com/yourhandle) | [💼 LinkedIn Time Capsule](www.linkedin.com/in/ramanarayanransingh) | [🐙 GitHub Time Machine](https://https://github.com/RamanarayanRansingh)
+
+</div>
+
+Remember: In the groovy dance of bike-sharing, your data is the disco ball that keeps the party going! 🕺💃🚲⏱️
