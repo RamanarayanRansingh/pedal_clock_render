@@ -1,6 +1,6 @@
 # 🚴‍♂️ Tick Tock, Pedal Clock: Hourly Bike Sharing Demand Prediction
 
-![Bike Demand Time Warp](Designer.png)
+![Bike Demand Time Warp](images/Designer.png)
 
 ## 🎭 Welcome to the Bicycle Time Machine!
 
